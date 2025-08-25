@@ -1,7 +1,8 @@
 /*  your css code here. If applicable */
 #grid{
-	width:500px;
-	height: 250px;
+	width:1500px;
+	grid-template-rows:124px 124px 124px 124px 124px;
+	grid-template-columns: 242.5px 242.5px 242.5px 242.5px 242.5px;
 	background-color:green;
 	display:grid;
  	border: 2px solid white;
