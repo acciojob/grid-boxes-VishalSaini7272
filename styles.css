@@ -1,1 +1,94 @@
 /*  your css code here. If applicable */
+#grid{
+	width:500px;
+	height: 250px;
+	background-color:green;
+	display:grid;
+ 	border: 2px solid white;
+	color:white;
+}
+	.first{
+		border:1px solid white;
+	}
+
+#box1{
+	grid-column-start:1;
+	grid-column-end:10;
+}
+
+#box2 {
+	grid-row-start:2;
+	grid-row-end: 10;
+}
+ .second{
+
+	border:1px solid white; 
+}
+
+#box3 {
+	grid-column-start:2;
+	grid-column-end:5;
+}
+.third{
+
+	border:1px solid white;
+}
+#box4{
+	grid-column-start:5;
+	grid-column-end:10;
+}
+.fourth{
+
+	border:1px solid white;
+}
+#box5{
+	grid-column-start:2;
+	grid-column-end:7;
+}
+
+.fifth{
+
+	border:1px solid white;
+}
+#box6{
+	grid-column-start:7;
+	grid-column-end:10;
+}
+
+.sixth{
+	
+	border:1px solid white;
+}
+#box7{
+	grid-column-start:2;
+	grid-column-end:5;
+}
+.seventh{
+	
+	border:1px solid white;
+}
+#box8{
+	grid-column-start:5;
+	grid-column-end:7;
+}
+.eight{
+	
+
+	border:1px solid white;
+}
+#box9{
+	grid-column-start:7;
+	grid-column-end:10;
+}
+.ninth{
+	
+	border:1px solid white;
+}
+#box10{
+	grid-column-start:2;
+	grid-column-end:10;
+}
+.tenth{
+	
+	border:1px solid white;
+} 
